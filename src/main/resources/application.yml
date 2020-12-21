@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: location-service
+  output:
+    ansi:
+      enabled: detect
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    disable-swagger-default-url: true
