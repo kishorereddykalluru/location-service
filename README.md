@@ -29,3 +29,18 @@ Once build is complete, the runtime application is available in target directory
  you can also view health and metrics through actuator sidecar functionality:
  - [Health](http://localhost:8080/actuator/health)
  - [Info](http://localhost:8080/actuator/info)
+ 
+ ## Testing
+ we have used JPARepository of Java persistence API to retrieve and update data into database
+ Swagger UI can be used to get Address details from Database and also to update database.
+ 
+ Added test cases for controller, service and repository layer using Junit5 and mockito framework
+ 
+ Data to database can be updated using follwing ways
+  - can be updated in data.sql by writing insert queries
+  - can be updated using post call 
+  - can be updated in h2 console after running application and logging into h2-console and running h2-console
+  
+
+ 
+ 
